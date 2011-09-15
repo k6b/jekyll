@@ -1,14 +1,10 @@
-source:     .
+source:         .
 destination:    ./_site
 includes:       ./_includes
 
 markdown:       rdiscount
 pygments:       true
-permalink:      /:title.html
 
 base_url:       http://kyleberry.org
 description:    "Kyle's Blog"
 root_desc:      "Jekyll test"
-
-rdiscount:
-    extensions: []
