@@ -7,6 +7,8 @@ h1. {{ page.title }}
 
 p(meta). Test. Date 14 September 2011
 
+Testing git upload 1
+
 TESTTEST test test test test
 
 more test
