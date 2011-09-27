@@ -8,6 +8,7 @@ h1. {{ page.title }}
 p(meta). Track your Reddit Karma with Xmonad and Xmobar
 
 I was inspired by "this":http://www.reddit.com/r/linux/comments/j71pb/track_karma_with_conky/ post from reddit so I made a little bash bash script to pull karma data from the about.json file that reddit provides for each user. 
+
 So here is the little bash script, it uses curl to download your users about.json, which contains all kinds of data about your reddit user, but we are only interested in a couple things. I'll talk about each part of the script briefly.
 
 <pre><code>#! /bin/bash
@@ -17,7 +18,27 @@ if [ $# -ne 1 ]; then
 fi
 
 curl --connect-timeout 1 -fsm 3 http://www.reddit.com/user/$1/about.json |
-awk '{match($0, "k_karma\": ([0-9]+)", a); match($0, "t_karma\": ([0-9]+)", b); print "Link karma:", a[1], "Comment karma:", b[1];}'</code></pre>
+awk '{match($0, "k_karma\": ([0-9]+)", a); match($0, "t_karma\": ([0-9]+)", b);
+    print "L:", a[1], "C:", b[1];}'</code></pre>
 
-First, the script requires a username as the an argument, so we check to see if the
-user supplied one, if not, we print some usage information.
+First, the script requires a username as the an argument, so we check to see if the user supplied one, if not, we print some usage information.
+
+Then we download the about.json file, and use "awk":http://www.gnu.org/s/gawk/ to match for "t_karma" and "k_karma" or "Comment_karma" and "Link_karma", the part of the json file which stores the values for your comment and link karma.
+
+And finally, print the values we found for our karma using L: for link karma and C: for comment karma, because it takes up less space on my xmobar. You of course could put whatever you want here.
+
+You'll want to save that script somewhere in your home directory, and call it something memorable, I named mine reddit.sh.
+
+Then, in your .xmobarrc, add:
+
+@code , Run Com "/path/to/script/reddit.sh" ["USERNAME"] "reddit" 9000@
+
+to the "commands" section of the file, replacing USERNAME with your reddit username, and putting in the path to your script.
+
+Finally, at the bottom of your .xmobarrc in the "template" section you'll want to add %reddit% where ever you want the widget to appear.
+
+If all has gone well, you should see something like this:
+
+![karmawidget](/images/karmawidget.png)
+
+
