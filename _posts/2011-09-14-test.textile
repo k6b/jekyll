@@ -41,12 +41,10 @@ this is ~supscript~
 
 @code test@
 
-<pre>
-<code>
+<pre><code>
 code block test
 cat /proc/loadavg | awk '{ print $1,$2,$3 }'
-</code>
-</pre>
+</code></pre>
 
 h2. second level heading
 
