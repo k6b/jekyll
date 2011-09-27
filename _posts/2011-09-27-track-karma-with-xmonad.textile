@@ -39,7 +39,7 @@ Finally, at the bottom of your .xmobarrc in the "template" section you'll want t
 
 <code> %reddit% </code>
 
-where ever you want the widget to appear.
+wherever you want the widget to appear.
 
 If all has gone well, you should see something like this:
 
