@@ -39,6 +39,6 @@ Finally, at the bottom of your .xmobarrc in the "template" section you'll want t
 
 If all has gone well, you should see something like this:
 
-![karmawidget](/images/karmawidget.png)
+<img src="/images/karmawidget.png">
 
 
