@@ -35,7 +35,11 @@ Then, in your .xmobarrc, add:
 
 to the "commands" section of the file, replacing USERNAME with your reddit username, and putting in the path to your script.
 
-Finally, at the bottom of your .xmobarrc in the "template" section you'll want to add %reddit% where ever you want the widget to appear.
+Finally, at the bottom of your .xmobarrc in the "template" section you'll want to add 
+
+@code %reddit% @
+
+where ever you want the widget to appear.
 
 If all has gone well, you should see something like this:
 
