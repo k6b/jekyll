@@ -1,6 +1,5 @@
 source:         .
 destination:    ./_site
-includes:       ./_plugins
 
 markdown:       rdiscount
 pygments:       true
