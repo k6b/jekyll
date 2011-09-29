@@ -4,6 +4,7 @@ destination:    ./_site
 markdown:       rdiscount
 pygments:       true
 
-base_url:       http://kyleberry.org
-description:    "Kyle's Blog"
-root_desc:      "Kyle's Blog"
+base_url:        /
+
+rdiscount:
+  extensions: []
