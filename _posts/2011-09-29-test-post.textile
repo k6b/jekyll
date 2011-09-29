@@ -5,3 +5,5 @@ title: Test Post
 
 h1. {{ page.title }}
 {{ post.id }}
+{{post.id}}
+{% post.id %}
