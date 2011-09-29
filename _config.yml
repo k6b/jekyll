@@ -1,7 +1,7 @@
 source:         .
 destination:    ./_site
 
-markdown:       rdiscount
+markdown:       marku
 pygments:       true
 
 base_url:        /
