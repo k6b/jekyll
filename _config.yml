@@ -4,6 +4,8 @@ destination:    ./_site
 markdown:       marku
 pygments:       true
 
+permalink: /:month-:day-:year/:title.html
+
 base_url:        /
 
 rdiscount:
