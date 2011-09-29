@@ -1,0 +1,7 @@
+---
+layout: post
+title: Test Post
+---
+
+h1. {{ page.title }}
+{{ post.id }}
