@@ -6,7 +6,7 @@ pygments:       true
 
 plugins:    ./_plugins
 
-permalink: /:month-:day-:year/:title.html
+permalink: /:year/:i_month/:i_day/title.html
 
 
 rdiscount:
