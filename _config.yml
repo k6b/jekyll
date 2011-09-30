@@ -8,7 +8,6 @@ plugins:    ./_plugins
 
 permalink: /:month-:day-:year/:title.html
 
-base_url:        /
 
 rdiscount:
   extensions: []
