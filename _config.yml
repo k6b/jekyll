@@ -8,7 +8,7 @@ plugins:    ./_plugins
 
 permalink: /:month-:day-:year/:title.html
 
-base_url:        /
+base_url:        kyleberry.org/
 
 rdiscount:
   extensions: []
