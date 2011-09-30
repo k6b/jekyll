@@ -5,4 +5,4 @@ title: Test Post
 
 Test post
 {{page.id}}
-
+{source}
