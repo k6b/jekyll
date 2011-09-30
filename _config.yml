@@ -4,6 +4,8 @@ destination:    ./_site
 markdown:       marku
 pygments:       true
 
+plugins:    ./_plugins
+
 permalink: /:month-:day-:year/:title.html
 
 base_url:        /
