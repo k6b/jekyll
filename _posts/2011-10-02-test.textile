@@ -7,69 +7,82 @@ h1. {{ page.title }}
 
 
 /home/k6b/jekyll
-├── comment_received.html
-├── commentsubmit.php
-├── _config.yml
-├── css
-│   ├── screen.css
-│   └── syntax.css
-├── error403.html
-├── error404.html
-├── error500.html
-├── favicon.ico
-├── .git
-│   ├── branches
-│   ├── config
-│   ├── description
-│   ├── HEAD
-│   ├── hooks
-│   │   ├── applypatch-msg.sample
-│   │   ├── commit-msg.sample
-│   │   ├── post-commit.sample
-│   │   ├── post-receive.sample
-│   │   ├── post-update.sample
-│   │   ├── pre-applypatch.sample
-│   │   ├── pre-commit.sample
-│   │   ├── prepare-commit-msg.sample
-│   │   ├── pre-rebase.sample
-│   │   └── update.sample
-│   ├── index
-│   ├── info
-│   │   └── exclude
-│   ├── logs
-│   │   ├── HEAD
-│   │   └── refs
-│   │       └── heads
-│   │           └── master
-│   ├── objects
-│   │   ├── info
-│   │   └── pack
-│   │       ├── pack-08e7cbec8e7c204a1518be21f4be130f5c61dc5f.idx
-│   │       └── pack-08e7cbec8e7c204a1518be21f4be130f5c61dc5f.pack
-│   ├── packed-refs
-│   └── refs
-│       ├── heads
-│       │   └── master
-│       ├── remotes
-│       │   └── origin
-│       │       └── HEAD
-│       └── tags
-├── .htaccess
-├── images
-│   ├── arch.png
-│   ├── karmawidget.png
-│   └── vim_created.png
-├── index.html
-├── _layouts
-│   ├── default.html
-│   ├── post.html
-│   └── .post.html.swp
-├── _plugins
-│   └── static_comments.rb
-├── _posts
-│   ├── 2011-09-27-track-karma-with-xmonad.textile
-│   ├── 2011-10-02-test.textile
-│   └── .2011-10-02-test.textile.swp
-└── robots.txt
+|-- comment_received.html
+|-- commentsubmit.php
+|-- _config.yml
+|-- css
+|   |-- screen.css
+|   `-- syntax.css
+|-- error403.html
+|-- error404.html
+|-- error500.html
+|-- favicon.ico
+|-- .git
+|   |-- branches
+|   |-- COMMIT_EDITMSG
+|   |-- config
+|   |-- description
+|   |-- HEAD
+|   |-- hooks
+|   |   |-- applypatch-msg.sample
+|   |   |-- commit-msg.sample
+|   |   |-- post-commit.sample
+|   |   |-- post-receive.sample
+|   |   |-- post-update.sample
+|   |   |-- pre-applypatch.sample
+|   |   |-- pre-commit.sample
+|   |   |-- prepare-commit-msg.sample
+|   |   |-- pre-rebase.sample
+|   |   `-- update.sample
+|   |-- index
+|   |-- info
+|   |   `-- exclude
+|   |-- logs
+|   |   |-- HEAD
+|   |   `-- refs
+|   |       |-- heads
+|   |       |   `-- master
+|   |       `-- remotes
+|   |           `-- origin
+|   |               `-- master
+|   |-- objects
+|   |   |-- 18
+|   |   |   `-- 0156b3e4e01e8dfff946473432d211a263a2f4
+|   |   |-- 6f
+|   |   |   `-- 83e944d33fd6cf02680cccf363b771e6e7dfbd
+|   |   |-- 73
+|   |   |   `-- ad86bf444cd0ecfb6fb6c09b875c0b52130101
+|   |   |-- a6
+|   |   |   `-- a2034908b858f3ed2b07c8c95ad080f2699558
+|   |   |-- info
+|   |   `-- pack
+|   |       |-- pack-08e7cbec8e7c204a1518be21f4be130f5c61dc5f.idx
+|   |       `-- pack-08e7cbec8e7c204a1518be21f4be130f5c61dc5f.pack
+|   |-- packed-refs
+|   `-- refs
+|       |-- heads
+|       |   `-- master
+|       |-- remotes
+|       |   `-- origin
+|       |       |-- HEAD
+|       |       `-- master
+|       `-- tags
+|-- .htaccess
+|-- images
+|   |-- arch.png
+|   |-- karmawidget.png
+|   `-- vim_created.png
+|-- index.html
+|-- _layouts
+|   |-- default.html
+|   |-- post.html
+|   `-- .post.html.swp
+|-- _plugins
+|   `-- static_comments.rb
+|-- _posts
+|   |-- 2011-09-27-track-karma-with-xmonad.textile
+|   |-- 2011-10-02-test.textile
+|   `-- .2011-10-02-test.textile.swp
+`-- robots.txt
 
-20 directories, 44 files
+26 directories, 51 files
