@@ -1,0 +1,98 @@
+---
+title: test
+layout: post
+---
+
+h1. {{ page.title }}
+
+
+/home/k6b
+├── 2011-10-02-static-jekyll-blogging.textile
+├── documents
+│   ├── Mastering_Regular_Expressions.pdf
+│   ├── oreilly_learning_perl.pdf
+│   ├── Regular_Expression_Pocket_Reference,_Second_Edition.pdf
+│   └── vim.pdf
+├── dotfiles
+│   ├── README
+│   └── xmonad.hs
+├── downloads
+├── gitosis-admin
+│   ├── gitosis.conf
+│   └── keydir
+│       ├── k6bkey.pem
+│       └── KEY-----.pub
+├── irclogs
+│   └── freenode
+│       ├── #archlinux.log
+│       ├── #austin.log
+│       ├── k6b.log
+│       └── nickserv.log
+├── jekyll
+│   ├── comment_received.html
+│   ├── commentsubmit.php
+│   ├── _config.yml
+│   ├── css
+│   │   ├── screen.css
+│   │   └── syntax.css
+│   ├── error403.html
+│   ├── error404.html
+│   ├── error500.html
+│   ├── favicon.ico
+│   ├── images
+│   │   ├── arch.png
+│   │   ├── karmawidget.png
+│   │   └── vim_created.png
+│   ├── index.html
+│   ├── _layouts
+│   │   ├── default.html
+│   │   └── post.html
+│   ├── _plugins
+│   │   └── static_comments.rb
+│   ├── _posts
+│   │   ├── 2011-09-27-track-karma-with-xmonad.textile
+│   │   ├── 2011-10-02-static-jekyll-blogging.textile
+│   │   └── 2011-10-02-test.textile
+│   └── robots.txt
+├── jekyll-generate-tags
+│   └── generate_tags.rb
+├── jekyll-outline
+├── jekyll-static-comments
+│   ├── comment_received.html
+│   ├── commentsubmit.php
+│   ├── comment_template.html
+│   ├── COPYING
+│   ├── README.md
+│   └── static_comments.rb
+├── pictures
+│   ├── blackxm.png
+│   ├── favicon.png
+│   ├── screenshots
+│   │   ├── 2011-09-17-162152_1680x1050_scrot.png
+│   │   ├── 2011-09-24-230718_1680x1050_scrot.png
+│   │   ├── 2011-09-24-230831_1680x1050_scrot.png
+│   │   ├── 2011-09-24-234008_1680x1050_scrot.png
+│   │   └── 2011-09-25-142119_1680x1050_scrot.png
+│   ├── vim_created.png
+│   ├── Xmbindings.png
+│   └── xmonadwallarchlogo.png
+└── scripts
+    ├── areddit.sh
+    ├── bancount.sh
+    ├── GNU-GPL
+    ├── googlesearch.sh
+    ├── LICENSE
+    ├── newbranch.sh
+    ├── newrepo.sh
+    ├── README
+    ├── reddit.sh
+    ├── runonce
+    ├── startup.sh
+    ├── temp.sh
+    ├── test.sh
+    ├── testsite.sh
+    ├── volume.sh
+    ├── wireless.sh
+    └── xreddit.sh
+
+18 directories, 69 files
