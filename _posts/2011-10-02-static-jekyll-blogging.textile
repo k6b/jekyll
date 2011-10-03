@@ -33,6 +33,18 @@ Okay, now that we have Ruby installed, and all the Ruby Gems that we'll need, it
 
 First, we want to create a bare Git repository on your server, and then clone that repository on your our machine. Jekyll looks for files to be in a certain location, we'll want to create the following directory structure in our Jekyll repository folder. You can also clone into my Git repository using @git clone git://git.kyleberry.org/jekyll.git@ and follow along there, or just copy my files and edit them to your hearts content, I promise, I don't care.
 
+<pre><code>/path/to/repo/jekyll
+|-- _config.yml
+|-- css
+|   |-- screen.css
+|   --- syntax.css
+|── index.html
+|── _layouts
+|   |-- default.html
+|   --- post.html
+--- _posts
+    |-- 2011-09-27-track-karma-with-xmonad.textile
+    --- 2011-10-02-static-jekyll-blogging.textile</code></pre>
 
 This is a basic, no frills Jekyll setup, you can see the two posts that I've posted to my blog in the @./_posts@ folder, and the @./css@ folder which contains my style sheets. The @./_layouts@ folder is where our templates will go, the @index.html@ file is another template for our blogs index page, and the @_config.yml@ is the main Jekyll configuration file.
 
@@ -48,6 +60,7 @@ plugins:    ./_plugins
 
 permalink: /:year/:i_month/:i_day/:title.html
 
+
 rdiscount:
   extensions: []</code></pre>
 
@@ -55,6 +68,32 @@ The only thing that I've customized here would be the permalink structure, you c
 
 My current directory structure looks a bit different, as I have added things like custom error pages, a static comment plugin, a @robots.txt@ file, and a @favicon.ico@. Here is what it looks like now:
 
+<pre><code>/path/to/repo/jekyll/
+|-- comment_received.html
+|-- _comments
+|-- commentsubmit.php
+|-- _config.yml
+|-- css
+|   |-- screen.css
+|   --- syntax.css
+|-- error403.html
+|-- error404.html
+|-- error500.html
+|-- favicon.ico
+|-- images
+|   |-- arch.png
+|   |-- karmawidget.png
+|   --- vim_created.png
+|-- index.html
+|-- _layouts
+|   |-- default.html
+|   --- post.html
+|-- _plugins
+|   --- static_comments.rb
+|-- _posts
+|   |-- 2011-09-27-track-karma-with-xmonad.textile
+|   --- 2011-10-02-static-jekyll-blogging.textile
+--- robots.txt</code></pre>
 
 As you can see, I've also added an @./images@ directory to hold all the images I use for my blog, and there are a few other files in there for the static comment plugin.
 
@@ -72,6 +111,13 @@ First we want to check out his the "Jekyll Static Comments":https://github.com/m
 
 Once we have cloned into the repo, we'll have the following files in the folder:
 
+<pre><code>/home/k6b/jekyll-static-comments
+|-- comment_received.html
+|-- commentsubmit.php
+|-- comment_template.html
+|-- COPYING
+|-- README.md
+--- static_comments.rb</code></pre>
 
 Now that we have everything we need, we need to put everything in the right spot so Jekyll can find it all. We need to copy @static_comments.rb@ to our Jekyll repository directory and put it under the @./_plugins@ directory. Next we need to put @commentsubmit.php@ and @comment_received.html@ in the base directory of our Jekyll repository so that everything looks just like the directory tree I posted above.
 
