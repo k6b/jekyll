@@ -5,4 +5,4 @@ layout: post
 
 h1. {{ page.title }}
 
-|||
+<code>|||</code>
