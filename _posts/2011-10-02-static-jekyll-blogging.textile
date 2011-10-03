@@ -60,6 +60,7 @@ plugins:    ./_plugins
 
 permalink: /:year/:i_month/:i_day/:title.html
 
+
 rdiscount:
   extensions: []</code></pre>
 
