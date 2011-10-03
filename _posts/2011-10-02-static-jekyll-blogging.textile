@@ -38,8 +38,8 @@ First, we want to create a bare Git repository on your server, and then clone th
 |-- css
 |   |-- screen.css
 |   --- syntax.css
-|── index.html
-|── _layouts
+|-- index.html
+|-- _layouts
 |   |-- default.html
 |   --- post.html
 --- _posts
