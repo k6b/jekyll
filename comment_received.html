@@ -1,3 +1,7 @@
+<?php
+$ref = $_SERVER['HTTP_REFERER'];
+header( 'refresh: 3; url='.$ref);
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
@@ -28,12 +32,6 @@
  })();
 
 </script>
-
-<?php
-$ref = $_SERVER['HTTP_REFERER'];
-header( 'refresh: 3; url='.$ref);
-?>
-
 </head>
 <body>
 
