@@ -1,5 +1,11 @@
 Options +FollowSymLinks
 
+RewriteEngine on
+RewriteCond %{HTTP_HOST}   !^$
+RewriteCond %{HTTP_HOST}   !^kyleberry.org [NC]
+RewriteRule ^/(.*)         http://kyleberry.org/$1 [L,R=301]
+
+
 <Files .htaccess>
     Order Allow,Deny
     Deny from all
